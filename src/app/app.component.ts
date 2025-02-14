@@ -3,6 +3,7 @@ import { OnInit } from '@angular/core';
 import { initFlowbite } from 'flowbite';
 import {RouterOutlet} from '@angular/router';
 import {RootHeaderComponent} from './components/root-header/root-header.component';
+import {CameraRecordsComponent} from './Pages/camera-records/camera-records.component';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,8 @@ import {RootHeaderComponent} from './components/root-header/root-header.componen
   standalone: true,
   imports: [
     RouterOutlet,
-    RootHeaderComponent
+    RootHeaderComponent,
+    CameraRecordsComponent
   ],
   styleUrls: ['./app.component.css']
 })

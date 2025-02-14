@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Router, RouterLinkActive} from '@angular/router';
+import {Router, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {NgClass, NgOptimizedImage} from '@angular/common';
 
 @Component({
@@ -7,7 +7,8 @@ import {NgClass, NgOptimizedImage} from '@angular/common';
   imports: [
     NgOptimizedImage,
     NgClass,
-    RouterLinkActive
+    RouterLinkActive,
+    RouterOutlet
   ],
   templateUrl: './root-header.component.html',
   standalone: true,
